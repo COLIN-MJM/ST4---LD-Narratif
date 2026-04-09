@@ -60937,13 +60937,13 @@ MonoBehaviour:
   thisNpcVoice: {fileID: 0}
   dialogueTree:
     _serializedList:
-    - Key: 0100000000000000
+    - Key: 0000000000000000
       Value: 0
     - Key: 000000000000000001000000
       Value: 1
     - Key: 000000000000000002000000
       Value: 2
-  curentDialogKey: 0000000000000000
+  curentDialogKey: ffffffff00000000
 --- !u!136 &1938795135
 CapsuleCollider:
   m_ObjectHideFlags: 0
