@@ -22,7 +22,6 @@ public class NpcTalk : MonoBehaviour
         List<int> key;
         if (choice!=0 )
         {
-            
             curentDialogKey.Add(choice);
             curentDialogKey[0] = 0;
             key= dialogueTree.Keys.ToList().Find(x => x.SequenceEqual(curentDialogKey));

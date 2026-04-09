@@ -20,9 +20,6 @@ public struct VoiceLines
     public bool haveAChoice2;
     public bool haveAChoice3;
     public bool haveAChoice4;
-
-
-
 }
 public class PlayerTalk : MonoBehaviour
 {
