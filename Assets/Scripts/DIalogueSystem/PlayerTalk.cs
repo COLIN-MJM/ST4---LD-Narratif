@@ -61,6 +61,7 @@ public class PlayerTalk : MonoBehaviour
         {
             PlayDialogue(currentNpc.TalkTo(choice),currentNpc.thisNpcVoice);
         }
+        
     }
 
     public void StartConversation(NpcTalk npcTalk)
@@ -72,6 +73,7 @@ public class PlayerTalk : MonoBehaviour
 
     public void EndCoversation()
     {
+       
         dialogueBox.SetActive(false);
         isInConversation = false;
     }
