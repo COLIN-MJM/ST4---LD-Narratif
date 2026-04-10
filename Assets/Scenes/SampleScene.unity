@@ -36237,6 +36237,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 865553595}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: initialTalk
+      value: 
+      objectReference: {fileID: 784588509}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.size
       value: 13
       objectReference: {fileID: 0}
@@ -36247,7 +36251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[1].mainText
-      value: 'Ducoups le plan c''est quoi ? '
+      value: 'Du coup, le plan c''est quoi ? '
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[2].mainText
@@ -36288,7 +36292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[0].mainPos.y
-      value: -60.5
+      value: -59.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[10].mainText
@@ -36306,32 +36310,40 @@ PrefabInstance:
         avec unit\xE9 H321. "
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[1].mainPos.y
+      value: -59.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[2].mainPos.y
+      value: -59.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[3].mainPos.y
-      value: -60.5
+      value: -59.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[4].mainPos.y
-      value: -60.5
+      value: -59.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[5].mainPos.y
-      value: -60.5
+      value: -59.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[6].mainPos.y
-      value: -60.5
+      value: -59.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[7].mainPos.y
-      value: -60.5
+      value: -59.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[8].mainPos.y
-      value: -60.5
+      value: -59.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[9].mainPos.y
-      value: -60.5
+      value: -59.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[0].talkerText
@@ -36339,15 +36351,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[10].mainPos.y
-      value: -60.5
+      value: -59.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[11].mainPos.y
-      value: -60.5
+      value: -59.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[12].mainPos.y
-      value: -60.5
+      value: -59.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[1].talkerText
@@ -36395,7 +36407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[0].talkerPos.y
-      value: -38.5
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[10].talkerText
@@ -36414,8 +36426,16 @@ PrefabInstance:
       value: E:huh
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[1].talkerPos.y
+      value: -27
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[2].choice1Text
       value: E:...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[2].talkerPos.y
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[3].choice1Text
@@ -36423,7 +36443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[3].talkerPos.y
-      value: -38.5
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[4].choice1Text
@@ -36431,7 +36451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[4].talkerPos.y
-      value: -38.5
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[5].choice1Text
@@ -36439,7 +36459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[5].talkerPos.y
-      value: -38.5
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[6].choice1Text
@@ -36451,7 +36471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[6].talkerPos.y
-      value: -38.5
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[7].choice1Text
@@ -36463,7 +36483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[7].talkerPos.y
-      value: -38.5
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[8].choice1Text
@@ -36475,11 +36495,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[8].talkerPos.y
-      value: -38.5
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[9].talkerPos.y
-      value: -38.5
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[0].choice1Pos.x
@@ -36487,7 +36507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[0].choice1Pos.y
-      value: -115.5
+      value: -119.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[0].choice2Pos.x
@@ -36507,11 +36527,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[10].talkerPos.y
-      value: -38.5
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[11].talkerPos.y
-      value: -38.5
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[12].choice1Text
@@ -36523,11 +36543,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[12].talkerPos.y
-      value: -38.5
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[1].choice1Pos.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[1].choice1Pos.y
+      value: -119.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[1].choice2Pos.x
@@ -36542,6 +36566,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[2].choice1Pos.y
+      value: -119.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[2].choice2Pos.x
       value: 0
       objectReference: {fileID: 0}
@@ -36551,7 +36579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[3].choice1Pos.y
-      value: -115.5
+      value: -119.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[3].choice2Pos.y
@@ -36559,7 +36587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[4].choice1Pos.y
-      value: -115.5
+      value: -119.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[4].choice2Pos.y
@@ -36583,7 +36611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[6].choice1Pos.y
-      value: -115
+      value: -119.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[6].choice2Pos.x
@@ -36591,7 +36619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[6].choice2Pos.y
-      value: -115
+      value: -119.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[6].haveAChoice1
@@ -36607,7 +36635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[7].choice1Pos.y
-      value: -115
+      value: -119.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[7].choice2Pos.x
@@ -36615,7 +36643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[7].choice2Pos.y
-      value: -115
+      value: -119.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[7].haveAChoice1
@@ -36667,11 +36695,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[12].choice1Pos.y
-      value: -269
+      value: -119.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[12].choice2Pos.y
-      value: -269
+      value: -119.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[12].haveAChoice1

@@ -34,6 +34,8 @@ public class PlayerTalk : MonoBehaviour
     [HideInInspector]public NpcTalk currentNpc;
     [HideInInspector] public bool isInConversation=false;
 
+
+    public NpcTalk initialTalk;
     public float conversatioCutOff=1;
     
     private bool canAChoice1;
@@ -45,6 +47,7 @@ public class PlayerTalk : MonoBehaviour
     private void Start()
     {
         dialogueBox.SetActive(false);
+        StartConversation(initialTalk);
     }
 
     private void Update()
