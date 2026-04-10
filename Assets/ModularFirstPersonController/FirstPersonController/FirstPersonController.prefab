@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4459864850019384740}
   - component: {fileID: 8958141775198398222}
   - component: {fileID: 5993390672179712190}
+  - component: {fileID: 8449232136053376825}
   m_Layer: 0
   m_Name: FirstPersonController
   m_TagString: Player
@@ -196,12 +197,12 @@ MonoBehaviour:
   enableCrouch: 1
   holdToCrouch: 1
   crouchKey: 306
-  crouchHeight: 0.75
+  crouchHeight: 0.504
   speedReduction: 0.5
   enableHeadBob: 1
   joint: {fileID: 4459864851508666808}
   bobSpeed: 10
-  bobAmount: {x: 0, y: 0.1, z: 0}
+  bobAmount: {x: 0, y: 0.05, z: 0}
 --- !u!82 &8958141775198398222
 AudioSource:
   m_ObjectHideFlags: 0
@@ -359,7 +360,23 @@ MonoBehaviour:
   playerVoice: {fileID: 8958141775198398222}
   currentNpc: {fileID: 0}
   isInConversation: 0
-  conversatioCutOff: 1
+  conversatioCutOff: 6
+--- !u!114 &8449232136053376825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4459864850019384750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a15ae4a5e3ccfd478a71f073dc597c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItermPicker
+  pickedItem: {fileID: 0}
+  grabDistance: 2
+  moveForce: 7
+  cameraTransform: {fileID: 4459864851310106429}
 --- !u!1 &4459864850190357393
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,7 +684,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RaycastAim
   lookingAtNPC: 0
+  raycastDistance: 3
   talk: {fileID: 5993390672179712190}
+  pick: {fileID: 8449232136053376825}
 --- !u!1 &4459864851397454630
 GameObject:
   m_ObjectHideFlags: 0
