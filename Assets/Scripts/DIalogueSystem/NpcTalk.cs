@@ -12,7 +12,7 @@ public class NpcTalk : MonoBehaviour
   
     public List<int> curentDialogKey = new List<int>();
 
-    private void Start()
+    protected virtual void Start()
     {
         thisNpcVoice=GetComponent<AudioSource>();
     }

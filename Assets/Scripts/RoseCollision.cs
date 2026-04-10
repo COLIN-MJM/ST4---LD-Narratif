@@ -1,20 +1,29 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class RoseCollision : MonoBehaviour
+public class RoseCollision : NpcTalk
 {
     public PlayerTalk playerTalk;
 
-    private void Start()
-    {
-        playerTalk = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerTalk>();
-    }
+    private bool once = false;
+    public float timeToRetriger = -1;
+    private float timeToRetrigerA = 0;
 
-    private void OnCollisionEnter(Collision other)
+    protected override void Start()
     {
-        if (other.gameObject.name == "ROSE")
+        base.Start();
+        playerTalk = FindObjectOfType<PlayerTalk>();
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (!once && other.gameObject.name == "ROSE")
         {
-            playerTalk.PlayDialogue(13);
+            Debug.Log(other.gameObject.name );
+            once = true;
+            playerTalk.StartConversation(this);
         }
+
+       
     }
 }
