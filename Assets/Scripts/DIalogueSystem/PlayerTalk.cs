@@ -96,10 +96,10 @@ public class PlayerTalk : MonoBehaviour
         voice.PlayOneShot(voiceLineToPlay.voice);
         dialogueBox.SetActive(true);
         
-        talkerName.rectTransform.anchoredPosition3D = voiceLineToPlay.talkerPos;
-        mainText.rectTransform.anchoredPosition3D = voiceLineToPlay.mainPos;
-        choiceText1.rectTransform.anchoredPosition3D = voiceLineToPlay.choice1Pos;
-        choiceText2.rectTransform.anchoredPosition3D = voiceLineToPlay.choice2Pos;
+        // talkerName.rectTransform.anchoredPosition3D = voiceLineToPlay.talkerPos;
+        // mainText.rectTransform.anchoredPosition3D = voiceLineToPlay.mainPos;
+        // choiceText1.rectTransform.anchoredPosition3D = voiceLineToPlay.choice1Pos;
+        // choiceText2.rectTransform.anchoredPosition3D = voiceLineToPlay.choice2Pos;
 
         talkerName.text = voiceLineToPlay.talkerText;
         mainText.text = voiceLineToPlay.mainText;
