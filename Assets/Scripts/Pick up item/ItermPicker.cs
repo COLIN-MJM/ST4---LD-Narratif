@@ -1,4 +1,5 @@
 
+using System;
 using UnityEngine;
 
 public class ItermPicker : MonoBehaviour
@@ -8,16 +9,25 @@ public class ItermPicker : MonoBehaviour
     public float moveForce=1.5f;
     public Transform cameraTransform;
 
+    private bool dropBuffer = false;
+
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            dropBuffer = true;
+        }
+    }
 
     private void FixedUpdate()
     {
-        
-        
         if(!pickedItem)return;
 
-        if (Input.GetMouseButtonDown(0))
+        if (dropBuffer)
         {
             Drop();
+            dropBuffer = false;
             return;
         }
         
@@ -30,7 +40,6 @@ public class ItermPicker : MonoBehaviour
     {
         pickedItem = rb;
         pickedItem.useGravity = false;
-
     }
 
     public void Drop()
