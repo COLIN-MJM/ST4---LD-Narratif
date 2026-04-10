@@ -2,12 +2,14 @@
 using System;
 using UnityEngine;
 
-public class ItermPicker : MonoBehaviour
+public class ItemPicker : MonoBehaviour
 {
     [HideInInspector]public Rigidbody pickedItem;
     public float grabDistance;
     public float moveForce=1.5f;
     public Transform cameraTransform;
+    [SerializeField] private GameObject scaryBots;
+    [SerializeField] private GameObject trees;
 
     private bool dropBuffer = false;
 
@@ -40,6 +42,11 @@ public class ItermPicker : MonoBehaviour
     {
         pickedItem = rb;
         pickedItem.useGravity = false;
+        if (pickedItem.gameObject.name == "ROSE")
+        {
+            scaryBots.SetActive(true);
+            trees.SetActive(false);
+        }
     }
 
     public void Drop()

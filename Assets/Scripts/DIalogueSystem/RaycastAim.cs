@@ -8,7 +8,7 @@ public class RaycastAim : MonoBehaviour
     public float raycastDistance = 3;
 
     public PlayerTalk talk;
-    public ItermPicker pick;
+    public ItemPicker pick;
     
     void Update()
     {
