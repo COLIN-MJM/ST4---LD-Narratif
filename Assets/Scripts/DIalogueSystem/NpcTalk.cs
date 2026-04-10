@@ -17,7 +17,7 @@ public class NpcTalk : MonoBehaviour
         thisNpcVoice=GetComponent<AudioSource>();
     }
 
-    public int TalkTo(int choice=0)
+    public virtual int TalkTo(int choice=0)
     {
         List<int> key;
         if (choice!=0 )
