@@ -17,4 +17,14 @@ public class NpcTalk_Trigger : NpcTalk
        
     }
     
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (!once&&other.gameObject.TryGetComponent(out PlayerTalk pT))
+        {
+            once = true;
+            pT.StartConversation(this);
+        }
+
+    }
 }
