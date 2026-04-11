@@ -5442,6 +5442,7 @@ GameObject:
   - component: {fileID: 121407297}
   - component: {fileID: 121407296}
   - component: {fileID: 121407295}
+  - component: {fileID: 121407299}
   m_Layer: 0
   m_Name: Collision (11)
   m_TagString: Untagged
@@ -5542,6 +5543,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786674713}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &121407299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121407294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e96e76e3fbda9a458a533c21ddd9988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcTalk_Trigger
+  thisNpcVoice: {fileID: 0}
+  dialogueTree:
+    _serializedList:
+    - Key: 0000000000000000
+      Value: 16
+  curentDialogKey: ffffffff00000000
+  timeToRetriger: -1
 --- !u!43 &122517589
 Mesh:
   m_ObjectHideFlags: 0
@@ -9570,6 +9590,7 @@ GameObject:
   - component: {fileID: 202615723}
   - component: {fileID: 202615722}
   - component: {fileID: 202615721}
+  - component: {fileID: 202615725}
   m_Layer: 0
   m_Name: Collision (10)
   m_TagString: Untagged
@@ -9670,6 +9691,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786674713}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &202615725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202615720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e96e76e3fbda9a458a533c21ddd9988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcTalk_Trigger
+  thisNpcVoice: {fileID: 0}
+  dialogueTree:
+    _serializedList:
+    - Key: 0000000000000000
+      Value: 16
+  curentDialogKey: ffffffff00000000
+  timeToRetriger: -1
 --- !u!4 &206535032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2121300830480009044, guid: 7c23267a4d346764ebe615e17f3dc68a, type: 3}
@@ -21771,6 +21811,7 @@ GameObject:
   - component: {fileID: 520368520}
   - component: {fileID: 520368519}
   - component: {fileID: 520368518}
+  - component: {fileID: 520368522}
   m_Layer: 0
   m_Name: Collision (9)
   m_TagString: Untagged
@@ -21871,6 +21912,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786674713}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &520368522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520368517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e96e76e3fbda9a458a533c21ddd9988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcTalk_Trigger
+  thisNpcVoice: {fileID: 0}
+  dialogueTree:
+    _serializedList:
+    - Key: 0000000000000000
+      Value: 16
+  curentDialogKey: ffffffff00000000
+  timeToRetriger: -1
 --- !u!43 &525651124
 Mesh:
   m_ObjectHideFlags: 0
@@ -23880,6 +23940,7 @@ GameObject:
   - component: {fileID: 593894028}
   - component: {fileID: 593894027}
   - component: {fileID: 593894026}
+  - component: {fileID: 593894030}
   m_Layer: 0
   m_Name: Collision (5)
   m_TagString: Untagged
@@ -23980,6 +24041,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786674713}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &593894030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593894025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e96e76e3fbda9a458a533c21ddd9988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcTalk_Trigger
+  thisNpcVoice: {fileID: 0}
+  dialogueTree:
+    _serializedList:
+    - Key: 0000000000000000
+      Value: 16
+  curentDialogKey: ffffffff00000000
+  timeToRetriger: -1
 --- !u!4 &594867419 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3476059547448255146, guid: d464c6910670ebe4895f8221b83e1b7a, type: 3}
@@ -25142,6 +25222,7 @@ GameObject:
   - component: {fileID: 631188622}
   - component: {fileID: 631188621}
   - component: {fileID: 631188620}
+  - component: {fileID: 631188624}
   m_Layer: 0
   m_Name: Collision (7)
   m_TagString: Untagged
@@ -25242,6 +25323,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786674713}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &631188624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631188619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e96e76e3fbda9a458a533c21ddd9988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcTalk_Trigger
+  thisNpcVoice: {fileID: 0}
+  dialogueTree:
+    _serializedList:
+    - Key: 0000000000000000
+      Value: 16
+  curentDialogKey: ffffffff00000000
+  timeToRetriger: -1
 --- !u!4 &631201298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2121300830480009044, guid: 7c23267a4d346764ebe615e17f3dc68a, type: 3}
@@ -31085,6 +31185,7 @@ GameObject:
   - component: {fileID: 799238353}
   - component: {fileID: 799238352}
   - component: {fileID: 799238351}
+  - component: {fileID: 799238355}
   m_Layer: 0
   m_Name: Collision (1)
   m_TagString: Untagged
@@ -31185,6 +31286,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786674713}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &799238355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799238350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e96e76e3fbda9a458a533c21ddd9988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcTalk_Trigger
+  thisNpcVoice: {fileID: 0}
+  dialogueTree:
+    _serializedList:
+    - Key: 0000000000000000
+      Value: 16
+  curentDialogKey: ffffffff00000000
+  timeToRetriger: -1
 --- !u!1 &804623715
 GameObject:
   m_ObjectHideFlags: 0
@@ -35446,6 +35566,7 @@ GameObject:
   - component: {fileID: 841296825}
   - component: {fileID: 841296824}
   - component: {fileID: 841296823}
+  - component: {fileID: 841296827}
   m_Layer: 0
   m_Name: Collision (3)
   m_TagString: Untagged
@@ -35546,6 +35667,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786674713}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &841296827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841296822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e96e76e3fbda9a458a533c21ddd9988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcTalk_Trigger
+  thisNpcVoice: {fileID: 0}
+  dialogueTree:
+    _serializedList:
+    - Key: 0000000000000000
+      Value: 16
+  curentDialogKey: ffffffff00000000
+  timeToRetriger: -1
 --- !u!43 &845363661
 Mesh:
   m_ObjectHideFlags: 0
@@ -36847,6 +36987,7 @@ GameObject:
   - component: {fileID: 885038462}
   - component: {fileID: 885038461}
   - component: {fileID: 885038460}
+  - component: {fileID: 885038464}
   m_Layer: 0
   m_Name: Collision (6)
   m_TagString: Untagged
@@ -36947,6 +37088,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786674713}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &885038464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885038459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e96e76e3fbda9a458a533c21ddd9988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcTalk_Trigger
+  thisNpcVoice: {fileID: 0}
+  dialogueTree:
+    _serializedList:
+    - Key: 0000000000000000
+      Value: 16
+  curentDialogKey: ffffffff00000000
+  timeToRetriger: -1
 --- !u!43 &886723662
 Mesh:
   m_ObjectHideFlags: 0
@@ -37219,7 +37379,7 @@ PrefabInstance:
       objectReference: {fileID: 784588509}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.size
-      value: 15
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[0].mainText
@@ -37297,6 +37457,14 @@ PrefabInstance:
         patienter."
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[15].mainText
+      value: "Unit\xE9 H321 ,veuillez retourn\xE9 \xE0 votre Poste"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[16].mainText
+      value: "Acc\xE8s interdit. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[1].mainPos.y
       value: -59.5
       objectReference: {fileID: 0}
@@ -37354,6 +37522,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[14].mainPos.y
+      value: -59.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[15].mainPos.y
+      value: -59.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[16].mainPos.y
       value: -59.5
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
@@ -37422,6 +37598,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[14].talkerText
+      value: ADMIN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[15].talkerText
+      value: ADMIN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[16].talkerText
       value: ADMIN
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
@@ -37529,6 +37713,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[10].choice1Text
+      value: E:...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[10].talkerPos.y
       value: -27
       objectReference: {fileID: 0}
@@ -37562,6 +37750,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[14].talkerPos.y
+      value: -27
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[15].talkerPos.y
+      value: -27
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[16].talkerPos.y
       value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
@@ -37766,6 +37962,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: allVoiceLines.Array.data[14].choice2Pos.y
+      value: -119.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[15].choice1Pos.y
+      value: -119.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[15].choice2Pos.y
+      value: -119.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[16].choice1Pos.y
+      value: -119.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993390672179712190, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: allVoiceLines.Array.data[16].choice2Pos.y
       value: -119.5
       objectReference: {fileID: 0}
     - target: {fileID: 8449232136053376825, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
@@ -51961,6 +52173,7 @@ GameObject:
   - component: {fileID: 1190741536}
   - component: {fileID: 1190741535}
   - component: {fileID: 1190741534}
+  - component: {fileID: 1190741538}
   m_Layer: 0
   m_Name: Collision (2)
   m_TagString: Untagged
@@ -52061,6 +52274,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786674713}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1190741538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190741533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e96e76e3fbda9a458a533c21ddd9988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcTalk_Trigger
+  thisNpcVoice: {fileID: 0}
+  dialogueTree:
+    _serializedList:
+    - Key: 0000000000000000
+      Value: 16
+  curentDialogKey: ffffffff00000000
+  timeToRetriger: -1
 --- !u!1001 &1193358865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57025,6 +57257,7 @@ GameObject:
   - component: {fileID: 1331359967}
   - component: {fileID: 1331359966}
   - component: {fileID: 1331359965}
+  - component: {fileID: 1331359969}
   m_Layer: 0
   m_Name: Collision
   m_TagString: Untagged
@@ -57125,6 +57358,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786674713}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1331359969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331359964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e96e76e3fbda9a458a533c21ddd9988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcTalk_Trigger
+  thisNpcVoice: {fileID: 0}
+  dialogueTree:
+    _serializedList:
+    - Key: 0000000000000000
+      Value: 16
+  curentDialogKey: ffffffff00000000
+  timeToRetriger: -1
 --- !u!4 &1331770490 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2121300830480009044, guid: 7c23267a4d346764ebe615e17f3dc68a, type: 3}
@@ -58956,6 +59208,8 @@ MonoBehaviour:
     _serializedList:
     - Key: 0000000000000000
       Value: 10
+    - Key: 0100000000000000
+      Value: 15
   curentDialogKey: ffffffff00000000
 --- !u!1001 &1387001980
 PrefabInstance:
@@ -65752,6 +66006,7 @@ GameObject:
   - component: {fileID: 1563763631}
   - component: {fileID: 1563763630}
   - component: {fileID: 1563763629}
+  - component: {fileID: 1563763633}
   m_Layer: 0
   m_Name: Collision (8)
   m_TagString: Untagged
@@ -65852,6 +66107,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786674713}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1563763633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563763628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e96e76e3fbda9a458a533c21ddd9988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcTalk_Trigger
+  thisNpcVoice: {fileID: 0}
+  dialogueTree:
+    _serializedList:
+    - Key: 0000000000000000
+      Value: 16
+  curentDialogKey: ffffffff00000000
+  timeToRetriger: -1
 --- !u!1 &1567594875
 GameObject:
   m_ObjectHideFlags: 0
@@ -89981,6 +90255,8 @@ MonoBehaviour:
     _serializedList:
     - Key: 0000000000000000
       Value: 10
+    - Key: 0100000000000000
+      Value: 15
   curentDialogKey: ffffffff00000000
 --- !u!1 &2100819307
 GameObject:
@@ -91253,6 +91529,7 @@ GameObject:
   - component: {fileID: 2143387933}
   - component: {fileID: 2143387932}
   - component: {fileID: 2143387931}
+  - component: {fileID: 2143387935}
   m_Layer: 0
   m_Name: Collision (4)
   m_TagString: Untagged
@@ -91353,6 +91630,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1786674713}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2143387935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143387930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e96e76e3fbda9a458a533c21ddd9988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcTalk_Trigger
+  thisNpcVoice: {fileID: 0}
+  dialogueTree:
+    _serializedList:
+    - Key: 0000000000000000
+      Value: 16
+  curentDialogKey: ffffffff00000000
+  timeToRetriger: -1
 --- !u!43 &2143697687
 Mesh:
   m_ObjectHideFlags: 0
